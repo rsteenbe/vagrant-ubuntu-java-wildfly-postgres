@@ -7,4 +7,5 @@ Vagrant.configure("2") do |config|
   
   config.vm.provision "shell", path: "install-java.sh"
   config.vm.provision "shell", path: "install-wildfly.sh"
+  config.vm.provision "shell", path: "install-postgres.sh"
 end
